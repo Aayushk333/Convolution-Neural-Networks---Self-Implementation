@@ -27,3 +27,4 @@ In this part, we implement a single step of convolution, in which we apply the f
 - Applies a filter at every position of the input
 - Outputs another volume (usually of different size)
 
+    <img src="Convolution operation.gif" style="width:500px;height:300px;">
