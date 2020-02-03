@@ -28,3 +28,7 @@ In this part, we implement a single step of convolution, in which we apply the f
 - Outputs another volume (usually of different size)
 
     <img src="Convolution operation.gif" style="width:500px;height:300px;">
+
+<caption><center> <u> <font color='purple'> **Figure 2** </u><font color='purple'>  : **Convolution operation**<br> with a filter of 3x3 and a stride of 1 (stride = amount you move the window each time you slide) </center></caption>
+
+Each value in the matrix on the left corresponds to a single pixel value, and we convolve a 3x3 filter with the image by multiplying its values element-wise with the original matrix, then summing them up and adding a bias. 
