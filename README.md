@@ -13,4 +13,4 @@ We will be implementing the building blocks of a convolutional neural network! E
     - Create mask 
     - Distribute value
     
-    <img src="../architecture.png" style="width:800px;height:300px;">
+    <img src="architecture.png" style="width:800px;height:300px;">
