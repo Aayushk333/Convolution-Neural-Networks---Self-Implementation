@@ -34,11 +34,21 @@ In this part, we implement a single step of convolution, in which we apply the f
 Each value in the matrix on the left corresponds to a single pixel value, and we convolve a 3x3 filter with the image by multiplying its values element-wise with the original matrix, then summing them up and adding a bias. 
 
 
-## 4 - Pooling layer 
+## Pooling layer 
 
 The pooling (POOL) layer reduces the height and width of the input. It helps reduce computation, as well as helps make feature detectors more invariant to its position in the input. The two types of pooling layers are: 
 
-- Max-pooling layer: slides an ($f, f$) window over the input and stores the max value of the window in the output.
+- Max-pooling layer: slides an (f, f) window over the input and stores the max value of the window in the output.
 
-- Average-pooling layer: slides an ($f, f$) window over the input and stores the average value of the window in the output.
+- Average-pooling layer: slides an (f, f) window over the input and stores the average value of the window in the output.
+
+    <table>
+<td>
+<img src="max_pool1.png" style="width:500px;height:300px;">
+<td>
+
+<td>
+<img src="a_pool.png" style="width:500px;height:300px;">
+<td>
+</table>
 
